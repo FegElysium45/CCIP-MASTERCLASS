@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_link",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_router",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "someText",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64",
+						"name": "destinationChainSelector",
+						"type": "uint64"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CCIPSender_Unsafe.sol": "CCIPSender_Unsafe"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol": {
+			"keccak256": "0x9899fab6a40f68408ddf153612c553f2441ea27770176bf71ccce22c40393286",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://00fbdb19d1dc68983c972644b68bff9f2a277d088841444675b3448dc01edbb7",
+				"dweb:/ipfs/Qma2PN1vYgDrou5ZN72NfvN5YbdHyxWyeBqM67AuRnvDRs"
+			]
+		},
+		"@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol": {
+			"keccak256": "0x2fb8e11d517fa5ee213aaab3f4d416155cd2b72d61ba443dbeff6b41d29e9523",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fcdf688dc96619a256fdbddce1a6ceff0f6c57963be267148abdcfd57616725e",
+				"dweb:/ipfs/QmVEF1ZER2V86L8CcMYTqt1VwQ4Xw2pa12pNZbb99UkqRT"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol": {
+			"keccak256": "0xc7d7cd730d36825485ef4107d93c3ff18b9f3a5a00ea3d5988ba9a0bd70b10c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8cb1064885ecbcd9c3adba779e190cb4a538e5d4d15aeccb67d3376bdffc94bd",
+				"dweb:/ipfs/QmcQHK6ewve7tFi4XXK65JthQg4kQzApQikWcURJjGt4iQ"
+			]
+		},
+		"CCIPSender_Unsafe.sol": {
+			"keccak256": "0x067f7bf9b662fdbff620d3c252aa97d3a6090034a6c42657ea2ded9647fbd2e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://271999157601572992b50f45df8b382039243f1371205c5736014818f70309da",
+				"dweb:/ipfs/QmS8bND34s4arutZGqNsWhLudVgkcp2HoPrXN9YHUio8Nk"
+			]
+		}
+	},
+	"version": 1
+}
